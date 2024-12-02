@@ -4,7 +4,6 @@ Welcome! This repository contains code snippets, demos, and examples associated 
 
 ## Structure
 - `blogs/`: Code related to specific blog posts.
-- `demos/`: Fully functional demo projects.
 - `whitepapers/`: Code and resources supporting whitepapers.
 - `videos/`: Code snippets from video tutorials.
 

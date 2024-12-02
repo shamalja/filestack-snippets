@@ -18,6 +18,7 @@ Thank you for contributing! Here's how you can add your code:
 - Ensure your code is properly commented.
 - Follow the existing folder structure.
 - Mention dependencies in the README of your folder.
+- Make sure to follow the [Standardized README](standardized-readme.md) for every project
 
 ## Submitting Your Code
 1. Fork the repository.

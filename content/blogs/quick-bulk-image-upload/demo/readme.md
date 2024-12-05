@@ -49,9 +49,10 @@ To see this example in action, follow these steps:
 1. **Clone the Repository:**
 
    `git clone <repository-url>`
+   
    `cd <repository-folder>`
 
-2. **Edit API Key:**
+3. **Edit API Key:**
 
 - Open index.html and replace YOUR_API_KEY with your Filestack API key.
 

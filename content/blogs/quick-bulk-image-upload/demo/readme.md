@@ -1,6 +1,6 @@
-# Filestack Bulk Upload Demo
+# Filestack Bulk Image Upload Demo
 
-## Filestack Bulk Upload Example
+## Filestack Bulk Image Upload Example
 
 This project demonstrates a web-based image bulk upload functionality using the Filestack API. It allows users to upload multiple images simultaneously, display resized versions of uploaded images in a grid layout, and provides links to view the original images.
 

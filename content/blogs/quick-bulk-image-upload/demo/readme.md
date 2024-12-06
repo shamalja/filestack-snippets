@@ -78,5 +78,7 @@ To see this example in action, follow these steps:
 - Use modern browsers (e.g., Chrome, Edge, Firefox) for the best experience.
 
 [Visit Filestack](https://www.filestack.com)
-<a href="https://www.filestack.com" target="_blank">Visit Filestack</a>
+
+<a href="https://www.filestack.com/" target="_blank" rel="noopener noreferrer">Visit Filestack</a>
+
 

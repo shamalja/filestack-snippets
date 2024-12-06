@@ -26,7 +26,7 @@ To see this example in action, follow these steps:
 ### Usage
 
 1. Click the **"Upload Images"** button to open the Filestack file picker.
-2. Select up to 50 images from your device.
+2. Select up to 50 images from your device (maximum limit is set to 50 in this example).
 3. Once uploaded, the images will be displayed in a responsive grid.
 
 ---
@@ -58,7 +58,7 @@ To see this example in action, follow these steps:
 
 3. **Open in Browser:**
 
-- Double-click the index.html file or serve it via a local web server.
+- Double-click the `index.html` file or serve it via a local web server. (Using a local server is recommended, as some features may not function correctly when opened directly in the file explorer.)
 
 ### Dependencies
 
@@ -77,4 +77,4 @@ To see this example in action, follow these steps:
 - Ensure you have a valid Filestack API key.
 - Use modern browsers (e.g., Chrome, Edge, Firefox) for the best experience.
 
-
+[Visit Filestack](https://www.filestack.com)

@@ -7,7 +7,7 @@ This project demonstrates a web-based image bulk upload functionality using the 
 ---
 
 ### Features
-- **Bulk Upload:** Upload up to 50 images simultaneously.
+- **Bulk Upload:** Upload up to 50 images simultaneously, with the option to increase the maximum limit as needed.
 - **Responsive Grid Display:** Uploaded images are displayed in a neat, responsive grid.
 - **Filestack Transformations:** Images are resized and cropped to a uniform 200x200 pixels using Filestack's transformation features.
 - **Dynamic File Info:** Each uploaded image includes its name and a link to view the full-size image.

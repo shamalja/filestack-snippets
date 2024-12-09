@@ -77,4 +77,6 @@ To see this example in action, follow these steps:
 - Ensure you have a valid Filestack API key.
 - Use modern browsers (e.g., Chrome, Edge, Firefox) for the best experience.
 
+Read our [Guide to Bulk Quick Image Uploads.](https://blog.filestack.com/ultimate-guide-bulk-quick-image-uploads-e-commerce-sites/)
+
 [Visit Filestack](https://www.filestack.com)

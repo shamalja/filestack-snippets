@@ -75,4 +75,21 @@ Styling is included in the `<style>` tag to create a clean and responsive design
   
 - Displays auto-generated tags in real-time.
 
+## **Technologies Used**
+
+- **HTML:** Structure of the application.
+  
+- **CSS:** Styling and layout.
+  
+- **JavaScript:** Fetching and displaying image tags.
+
+- **Filestack API:** For image uploading and tagging.
+
+## **Resources**
+
+(Filestack Documentation)[https://www.filestack.com/docs/]
+
+(Filestack API Key Setup)[https://www.filestack.com/signup-start/]
+
+Read our article (How AI Improves Image Tagging Accuracy and Efficiency)[https://blog.filestack.com/ai-improves-image-tagging-accuracy-efficiency/]
 

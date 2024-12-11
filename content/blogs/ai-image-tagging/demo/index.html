@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Upload and Tags</title>
+
+    <script src="https://static.filestackapi.com/v3/filestack.js"></script>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f4f4f9;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            height: 100vh;
+
+            margin: 0;
+
+        }
+
+        .container {
+
+            text-align: center;
+
+            background-color: #fff;
+
+            border-radius: 8px;
+
+            padding: 30px;
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            width: 80%;
+
+            max-width: 400px;
+
+        }
+
+        h2 {
+
+            color: #333;
+
+            font-size: 24px;
+
+        }
+
+        button {
+
+            padding: 12px 25px;
+
+            font-size: 16px;
+
+            background-color: #007BFF;
+
+            color: #fff;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+            transition: background-color 0.3s ease;
+
+        }
+
+        button:hover {
+
+            background-color: #0056b3;
+
+        }
+
+        h3 {
+
+            color: #333;
+
+            margin-top: 20px;
+
+            font-size: 18px;
+
+        }
+
+        #tags {
+
+            color: #555;
+
+            font-size: 16px;
+
+            margin-top: 10px;
+
+            word-wrap: break-word;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+    <h2>Upload an Image and Get Tags</h2>
+
+    <button id="uploadBtn">Upload Image</button>
+
+    <h3>Image Tags:</h3>
+
+    <p id="tags"></p>
+
+</div>
+
+
+
+<script>
+
+    const apiKey = 'YOUR_API_KEY';
+
+    const policy = 'YOUR_POLICY';
+
+    const signature = 'YOUR_SIGNATURE';
+
+
+
+    const client = filestack.init(apiKey);
+
+
+
+    document.getElementById('uploadBtn').addEventListener('click', function() {
+
+        client.pick().then(function(result) {
+
+            const handle = result.filesUploaded[0].handle;
+
+            const tagsUrl = `https://cdn.filestackcontent.com/${apiKey}/security=p:${policy},s:${signature}/tags/${handle}`;
+
+
+
+            fetch(tagsUrl)
+
+                .then(response => response.json())
+
+                .then(data => {
+
+                    if (data.tags && data.tags.auto) {
+
+                        const tagNames = Object.keys(data.tags.auto);
+
+                        const tags = tagNames.join(', ');
+
+                        document.getElementById('tags').textContent = tags;
+
+                    } else {
+
+                        document.getElementById('tags').textContent = 'No tags found for this image.';
+
+                    }
+
+                })
+
+                .catch(error => {
+
+                    document.getElementById('tags').textContent = 'Error fetching tags.';
+
+                });
+
+        }).catch(function(error) {
+
+            console.error('File upload error:', error);
+
+        });
+
+    });
+
+</script>
+
+
+
+</body>
+
+</html>

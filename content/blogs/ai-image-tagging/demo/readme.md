@@ -87,9 +87,9 @@ Styling is included in the `<style>` tag to create a clean and responsive design
 
 ## **Resources**
 
-(Filestack Documentation)[https://www.filestack.com/docs/]
+[Filestack Documentation](https://www.filestack.com/docs/)
 
-(Filestack API Key Setup)[https://www.filestack.com/signup-start/]
+[Filestack API Key Setup](https://www.filestack.com/signup-start/)
 
-Read our article (How AI Improves Image Tagging Accuracy and Efficiency)[https://blog.filestack.com/ai-improves-image-tagging-accuracy-efficiency/]
+Read our article [How AI Improves Image Tagging Accuracy and Efficiency](https://blog.filestack.com/ai-improves-image-tagging-accuracy-efficiency/)
 

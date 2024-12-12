@@ -25,6 +25,7 @@ To run this example, you need the following:
 ### 1. Clone the Repository:
 
 `git clone <repository-url>`
+
 `cd <repository-folder>`
 
 ### 2. Edit API Key and Credentials:

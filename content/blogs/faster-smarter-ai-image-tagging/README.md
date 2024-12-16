@@ -84,3 +84,7 @@ Use a local web server to serve the HTML file. This is necessary to avoid CORS-r
 - Ensure you have a valid Filestack account and API key to use this application.
 - This example demonstrates integration with Filestack's tagging feature. For production use, review the security settings and optimize the code accordingly.
 
+Read our article on [Faster and Smarter AI Image Tagging Tools.](https://blog.filestack.com/faster-smarter-ai-image-tagging-tools/)
+
+[Visit Filestack](https://www.filestack.com)
+

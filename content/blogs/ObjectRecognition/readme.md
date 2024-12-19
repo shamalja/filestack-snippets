@@ -88,6 +88,7 @@ To serve the application using Node.js http-server, run the following command:
 
 - [Filestack Documentation](https://www.filestack.com/docs/)
 - [Filestack API Reference](https://www.filestack.com/products/file-upload/)
+- Read our article, [What is Object Recognition API and How Does It Work?](https://blog.filestack.com/what-is-object-recognition-api-how-it-works/)
 
 ---
 

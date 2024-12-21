@@ -39,7 +39,7 @@ To run this app, you will need:
 
 ### 3. Serve the Application
 
-Use a local web server to serve the `index.html` file. This is necessary to avoid CORS-related issues.
+Use a local web server to serve the index.html file. This is necessary to avoid CORS-related issues when testing by opening it directly from the folder.
 
 #### Using Python's Built-in HTTP Server:
 

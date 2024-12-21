@@ -85,12 +85,6 @@ Open your browser and navigate to [http://localhost:8000](http://localhost:8000)
 
 ---
 
-### Example Screenshot
-
-*(Replace this placeholder with a screenshot of the app output.)*
-
----
-
 ### Notes
 
 - Ensure your Filestack API Key, policy, and signature are valid.

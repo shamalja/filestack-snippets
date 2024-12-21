@@ -97,6 +97,7 @@ Open your browser and navigate to [http://localhost:8000](http://localhost:8000)
 
 - [Filestack Documentation](https://www.filestack.com/docs/)
 - [Filestack API Reference](https://www.filestack.com/docs/api/)
+- Read our article: [Unlock Efficiency with Advanced Forms Recognition SDKs](https://blog.filestack.com/unlock-efficiency-advanced-forms-recognition-sdks/)
 
 ---
 

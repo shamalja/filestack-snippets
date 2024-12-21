@@ -30,8 +30,11 @@ To run this app, you will need:
 2. Replace the placeholders `YOUR_API_KEY`, `YOUR_POLICY`, and `YOUR_SIGNATURE` with your Filestack credentials.
 
 `javascript`
+
 `const apikey = 'YOUR_API_KEY'; // Replace with your Filestack API key`
+
 `const policy = 'YOUR_POLICY'; // Replace with your Filestack policy`
+
 `const signature = 'YOUR_SIGNATURE'; // Replace with your Filestack signature`
 
 ### 3. Serve the Application

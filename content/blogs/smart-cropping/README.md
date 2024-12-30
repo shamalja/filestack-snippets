@@ -76,6 +76,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Filestack Documentation](https://www.filestack.com/docs/)
   
-- [Filestack Smart Crop API](https://www.filestack.com/docs/api/image-transformations/#smart-crop)
+- [Filestack Smart Crop API](https://www.filestack.com/docs/api/processing/#smart-crop)
 
 Feel free to customize this example and use it in your projects!

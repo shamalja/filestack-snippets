@@ -1,4 +1,4 @@
- /* Set up the body with a gradient background and center content */
+        /* Set up the body with a gradient background and center content */
         body {
             font-family: 'Roboto', Arial, sans-serif;
             background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);

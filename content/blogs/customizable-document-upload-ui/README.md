@@ -18,7 +18,7 @@ Clone this repository to your local machine:
 
 `git clone <repository-url>`
 
-`cd <repository-directory>`
+`cd filestack-snippets/content/blogs/customizable-document-upload-ui`
 
 ### 2. Add Your Filestack API Key
 Open the HTML file and replace `YOUR_API_KEY` with your actual Filestack API key:

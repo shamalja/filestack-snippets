@@ -17,6 +17,7 @@ To use this project, you'll need:
 Clone this repository to your local machine:
 
 `git clone <repository-url>`
+
 `cd <repository-directory>`
 
 ### 2. Add Your Filestack API Key

@@ -1,6 +1,6 @@
 # File Upload with Filestack
 
-This project demonstrates how to implement a modern file upload feature using the Filestack API. Users can upload files, preview uploaded documents, and enjoy a seamless experience with features like drag-and-drop, progress bars, and real-time feedback.
+This project demonstrates how to implement a modern file upload feature with a customizable document upload UI using the Filestack API. Users can upload files, preview uploaded documents, and enjoy a seamless experience with features like drag-and-drop, progress bars, and real-time feedback.
 
 ## Features
 - Upload up to 5 files simultaneously.

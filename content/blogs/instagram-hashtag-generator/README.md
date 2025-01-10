@@ -91,6 +91,7 @@ Open your browser and navigate to `http://localhost:8000` (or the appropriate ad
 ## Resources
 - [Filestack Documentation](https://www.filestack.com/docs/)
 - [Filestack API Reference](https://www.filestack.com/docs/api/)
+- [AI Innovation with Multi-Object Recognition API](https://blog.filestack.com/ai-innovation-multi-object-recognition-api/)
 
 ---
 

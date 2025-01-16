@@ -22,6 +22,8 @@ This project demonstrates a simple real-world React application where users can 
    
     `npm install axios file-saver json-server`
 
+---
+
 ## Step 2: Mock API Setup
 
 1. Create a `db.json` file in the root directory for `json-server`. (Refer to the `demo/db.json` file for this file content)
@@ -40,13 +42,19 @@ If port `5000` is already in use by another process, you can start `json-server`
 
 This ensures that the mock API starts without conflicts.
 
+---
+
 ## Step 3: Create the React Component
 
-Inside the `src` folder, create a file named `FileDownload.js`. (Refer to `demo` folder for the content of `FileDownload.js` file)
+Inside the `src` folder, create a file named `FileDownload.js`. (Refer to `demo/FileDownload.js` for the content of `FileDownload.js` file)
+
+---
 
 ## Step 4: Update `App.js`
 
 Replace the content of `src/App.js` with the content in the `demo/App.js` file content.
+
+---
 
 ## Step 5: Start Your App
 
@@ -55,6 +63,8 @@ Replace the content of `src/App.js` with the content in the `demo/App.js` file c
 `npm start`
 
 2. Open your browser and navigate to: http://localhost:3000.
+
+---
 
 ## How It Works
 
@@ -68,6 +78,8 @@ Replace the content of `src/App.js` with the content in the `demo/App.js` file c
 
   - The button text changes to **Downloading....**
   - The button is disabled until the download completes.
+
+---
 
 ## More Features You Can Add
 

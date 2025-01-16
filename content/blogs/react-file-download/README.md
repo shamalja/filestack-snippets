@@ -69,3 +69,20 @@ Replace the content of `src/App.js` with the content in the `demo/App.js` file c
   - The button text changes to **Downloading....**
   - The button is disabled until the download completes.
 
+## More Features You Can Add
+
+**- Multiple File Downloads:**
+
+Replace the button with a list of files fetched from the API.
+
+**- Progress Indicators:**
+
+Add a progress bar for larger files using Axios' onDownloadProgress.
+
+**- Real API Integration:**
+
+Replace the mock API with a real backend API.
+
+**Enjoy exploring this example project!**
+
+

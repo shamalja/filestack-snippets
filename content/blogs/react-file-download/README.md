@@ -24,7 +24,7 @@ This project demonstrates a simple real-world React application where users can 
 
 ## Step 2: Mock API Setup
 
-1. Create a `db.json` file in the root directory for `json-server`. (Refer to the `demo` folder for the content of `db.json` file)
+1. Create a `db.json` file in the root directory for `json-server`. (Refer to the `demo/db.json` file for this file content)
 
 2. Start the mock API:
 

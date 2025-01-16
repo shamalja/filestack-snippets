@@ -93,7 +93,7 @@ Add a progress bar for larger files using Axios' onDownloadProgress.
 
 **- Real API Integration:**
 
-Replace the mock API with a real backend API.
+Replace the mock API with a real backend API. (Refer to this [code snippet](https://github.com/shamalja/filestack-snippets/blob/shamalja-new-example/content/blogs/react-file-download/code-snippets/connect-to-real-api.js)).
 
 **Enjoy exploring this example project!**
 

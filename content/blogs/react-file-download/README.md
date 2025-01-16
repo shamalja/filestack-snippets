@@ -60,7 +60,7 @@ Replace the content of `src/App.js` with the content in the `demo/App.js` file c
 
 1. Run the following command:
 
-`npm start`
+  `npm start`
 
 2. Open your browser and navigate to: http://localhost:3000.
 

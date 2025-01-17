@@ -97,4 +97,8 @@ Replace the mock API with a real backend API. (Refer to this [code snippet](http
 
 **Enjoy exploring this example project!**
 
+---
+
+Also read our article **[The Ultimate Guide to File Downloads in React Using APIs](https://blog.filestack.com/the-ultimate-guide-to-file-downloads-in-react-using-apis/)**
+
 

@@ -34,7 +34,7 @@ cd filestack-snippets/content/videos/shorts/imagesize-shorts
 
 ## 2. Add your Filestack API key 
 
-Open the JavaScript file and replace `YOUR_API_KEY` with your actual Filestack API Key:
+Open the HTML file and replace `YOUR_API_KEY` with your actual Filestack API Key:
 
 ## 3. Open the imagesize.html file
 

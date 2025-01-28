@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Filestack Image Crop</title>
+    <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #eceff1 0%, #cfd8dc 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            color: #333;
+        }
+
+        .card {
+            background: #ffffffcc;
+            backdrop-filter: blur(12px);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 360px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #212121;
+            font-size: 20px;
+        }
+
+        .instructions {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #ffffff;
+            background-color: #ef4a25;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #d33f1f;
+        }
+
+        #result {
+            margin-top: 20px;
+            display: none;
+        }
+
+        #imagePreview {
+            max-width: 100%;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+        }
+
+        #cropForm {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #cropForm input {
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #croppedImagePreview {
+            max-width: 100%;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 2px solid #ddd;
+        }
+
+        #errorMessage {
+            margin-top: 10px;
+            color: red;
+            font-size: 14px;
+        }
+
+        /* Adjust for vertical (YouTube Shorts) screens */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 18px;
+            }
+            .btn {
+                font-size: 14px;
+                padding: 10px;
+            }
+            #cropForm input {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Filestack Image Crop</h1>
+        <p class="instructions">
+            Click "Select an Image" to upload your file. Then, enter the crop dimensions (x, y, width, height) to crop the image.
+        </p>
+
+        <button id="uploadButton" class="btn" onclick="openFilePicker()">
+            📄 Select an Image
+        </button>
+
+        <div id="result">
+            <img id="imagePreview" alt="Uploaded Image Preview" />
+            <form id="cropForm" onsubmit="cropImage(event)">
+                <input type="number" id="x" placeholder="X coordinate" required min="0" max="100000"/>
+                <input type="number" id="y" placeholder="Y coordinate" required min="0" max="100000"/>
+                <input type="number" id="width" placeholder="Width" required min="1" max="100000"/>
+                <input type="number" id="height" placeholder="Height" required min="1" max="100000"/>
+                <button type="submit" class="btn">Crop Image</button>
+            </form>
+            <img id="croppedImagePreview" alt="Cropped Image Preview" />
+        </div>
+
+        <p id="errorMessage"></p>
+    </div>
+
+    <script>
+        const apikey = '';
+        const client = filestack.init(apikey);
+
+        const policy = '==';
+        const signature = '';
+
+        let fileHandle = null;
+        let fileUrl = null;
+
+        function openFilePicker() {
+            const options = {
+                onUploadDone: (res) => {
+                    fileHandle = res.filesUploaded[0].handle;
+                    fileUrl = res.filesUploaded[0].url;
+
+                    document.getElementById('imagePreview').src = fileUrl;
+                    document.getElementById('result').style.display = 'block';
+                    document.getElementById('errorMessage').textContent = '';
+                },
+            };
+            const picker = client.picker(options);
+            picker.open();
+        }
+
+        function cropImage(event) {
+            event.preventDefault();
+
+            const x = document.getElementById('x').value;
+            const y = document.getElementById('y').value;
+            const width = document.getElementById('width').value;
+            const height = document.getElementById('height').value;
+
+            const cropUrl = `https://cdn.filestackcontent.com/${apikey}/security=p:${policy},s:${signature}/crop=dim:[${x},${y},${width},${height}]/${fileHandle}`;
+
+            document.getElementById('croppedImagePreview').src = cropUrl;
+            document.getElementById('errorMessage').textContent = '';
+        }
+    </script>
+</body>
+</html>

@@ -32,9 +32,9 @@ git clone https://github.com/Fileschool/filestack-snippets.git
 cd filestack-snippets/content/videos/shorts/imagesize-shorts
 ```
 
-## 2. Add your Filestack API key 
+## 2. Add your Filestack API key
 
-Open the HTML file and replace `YOUR_API_KEY` with your actual Filestack API Key:
+Open the HTML file and replace `apikey` with your actual Filestack API Key:
 
 ## 3. Open the imagesize.html file
 

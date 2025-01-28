@@ -7,7 +7,7 @@ This project demonstrates how to create a simple **YouTube Shorts video** showca
 - Use Filestack's **CROP** API to retrieve image dimensions.
 - Display the **Original Image**, **Image Dimensions**, and other metadata in a dynamic UI.
 - Create engaging visuals ideal for a quick YouTube Shorts tutorial.
-- Youtube Short Link: [Crop short](https://www.youtube.com/shorts/S_BN6lZZ0l4)
+- Youtube Short Link: [Resize short](https://www.youtube.com/shorts/S_BN6lZZ0l4)
 
 ## Features
 
@@ -28,7 +28,7 @@ Run the following commands in your terminal:
 
 ```bash
 git clone https://github.com/Fileschool/filestack-snippets.git
-cd filestack-snippets/content/videos/shorts/crop-shorts
+cd filestack-snippets/content/videos/shorts/resize-shorts
 ```
 
 ## 2. Add your Filestack API key

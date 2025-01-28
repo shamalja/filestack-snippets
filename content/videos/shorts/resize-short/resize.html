@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Filestack Image Crop</title>
+    <title>Filestack Resize with Fit, Align, and Filter</title>
     <script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
 
     <!-- Google Fonts -->
@@ -67,6 +67,15 @@
             background-color: #d33f1f;
         }
 
+        select, input {
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: 100%;
+            font-size: 14px;
+        }
+
         #result {
             margin-top: 20px;
             display: none;
@@ -79,21 +88,7 @@
             border: 2px solid #ddd;
         }
 
-        #cropForm {
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        #cropForm input {
-            padding: 8px;
-            font-size: 14px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        #croppedImagePreview {
+        #resizedPreview {
             max-width: 100%;
             margin-top: 10px;
             border-radius: 8px;
@@ -115,33 +110,51 @@
                 font-size: 14px;
                 padding: 10px;
             }
-            #cropForm input {
-                font-size: 13px;
-            }
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>Filestack Image Crop</h1>
+        <h1>Filestack Resize</h1>
         <p class="instructions">
-            Click "Select an Image" to upload your file. Then, enter the crop dimensions (x, y, width, height) to crop the image.
+            Upload an image, set your resize options, and preview the results!
         </p>
 
         <button id="uploadButton" class="btn" onclick="openFilePicker()">
             📄 Select an Image
         </button>
 
+        <div id="settings" style="display:none;">
+            <select id="fitSelect">
+                <option value="clip" selected>clip (Default)</option>
+                <option value="crop">crop</option>
+                <option value="scale">scale</option>
+                <option value="max">max</option>
+            </select>
+            <select id="alignSelect">
+                <option value="center" selected>center (Default)</option>
+                <option value="top">top</option>
+                <option value="bottom">bottom</option>
+                <option value="left">left</option>
+                <option value="right">right</option>
+                <option value="faces">faces</option>
+            </select>
+            <select id="filterSelect">
+                <option value="lanczos3" selected>lanczos3 (Default)</option>
+                <option value="catrom">catrom</option>
+                <option value="lanczos2">lanczos2</option>
+                <option value="mitchell">mitchell</option>
+                <option value="nearest">nearest</option>
+            </select>
+            <input type="number" id="resizeWidth" placeholder="Width (px)" />
+            <input type="number" id="resizeHeight" placeholder="Height (px)" />
+            <button id="resizeButton" class="btn" onclick="resizeImage()">🔧 Resize Image</button>
+        </div>
+
         <div id="result">
             <img id="imagePreview" alt="Uploaded Image Preview" />
-            <form id="cropForm" onsubmit="cropImage(event)">
-                <input type="number" id="x" placeholder="X coordinate" required min="0" max="100000"/>
-                <input type="number" id="y" placeholder="Y coordinate" required min="0" max="100000"/>
-                <input type="number" id="width" placeholder="Width" required min="1" max="100000"/>
-                <input type="number" id="height" placeholder="Height" required min="1" max="100000"/>
-                <button type="submit" class="btn">Crop Image</button>
-            </form>
-            <img id="croppedImagePreview" alt="Cropped Image Preview" />
+            <h3>Resized Image</h3>
+            <img id="resizedPreview" alt="Resized Image Preview" />
         </div>
 
         <p id="errorMessage"></p>
@@ -154,16 +167,17 @@
         const policy = '==';
         const signature = '';
 
-        let fileHandle = null;
-        let fileUrl = null;
+        let uploadedFileHandle;
+        let uploadedFileUrl;
 
         function openFilePicker() {
             const options = {
                 onUploadDone: (res) => {
-                    fileHandle = res.filesUploaded[0].handle;
-                    fileUrl = res.filesUploaded[0].url;
+                    uploadedFileHandle = res.filesUploaded[0].handle;
+                    uploadedFileUrl = res.filesUploaded[0].url;
 
-                    document.getElementById('imagePreview').src = fileUrl;
+                    document.getElementById('imagePreview').src = uploadedFileUrl;
+                    document.getElementById('settings').style.display = 'block';
                     document.getElementById('result').style.display = 'block';
                     document.getElementById('errorMessage').textContent = '';
                 },
@@ -172,17 +186,29 @@
             picker.open();
         }
 
-        function cropImage(event) {
-            event.preventDefault();
+        function resizeImage() {
+            const width = document.getElementById('resizeWidth').value;
+            const height = document.getElementById('resizeHeight').value;
+            const fit = document.getElementById('fitSelect').value;
+            const align = document.getElementById('alignSelect').value;
+            const filter = document.getElementById('filterSelect').value;
 
-            const x = document.getElementById('x').value;
-            const y = document.getElementById('y').value;
-            const width = document.getElementById('width').value;
-            const height = document.getElementById('height').value;
+            if (!width && !height) {
+                document.getElementById('errorMessage').textContent = 'Please provide at least one dimension.';
+                return;
+            }
 
-            const cropUrl = `https://cdn.filestackcontent.com/${apikey}/security=p:${policy},s:${signature}/crop=dim:[${x},${y},${width},${height}]/${fileHandle}`;
+            const resizeParams = [
+                width ? `width:${width}` : '',
+                height ? `height:${height}` : '',
+                `fit:${fit}`,
+                `align:${align}`,
+                `filter:${filter}`,
+            ].filter(Boolean).join(',');
 
-            document.getElementById('croppedImagePreview').src = cropUrl;
+            const resizeUrl = `https://cdn.filestackcontent.com/${apikey}/security=p:${policy},s:${signature}/resize=${resizeParams}/${uploadedFileHandle}`;
+
+            document.getElementById('resizedPreview').src = resizeUrl;
             document.getElementById('errorMessage').textContent = '';
         }
     </script>

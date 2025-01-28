@@ -49,3 +49,5 @@ Open your browser and navigate to http://localhost:3000.
 - The processed image URL applies face detection and blurring for enhanced privacy.
   
 This example integrates Filestack's privacy-focused features and provides a strong foundation for secure and private image hosting in React.
+
+Also read our article on [Privacy-Conscious Image Hosting APIs to Protect Sensitive Data](https://blog.filestack.com/privacy-conscious-image-hosting-apis/).

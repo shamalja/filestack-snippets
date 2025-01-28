@@ -29,9 +29,10 @@ Run the following command in your terminal or PowerShell:
 
 #### Option 2: Using a CDN
 
-Add this <script> tag in your HTML file within the <head> or at the end of the <body> section:
+Add this `<script>` tag in your HTML file within the `<head>` or at the end of the `<body>` section:
 
-<script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
+`<script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>`
 
-
+### Step 3: Create HTML Containers for Image and Tags
+In the `<body>` section of your HTML file, add an upload button, along with containers to display the uploaded image and its recognized tags. 
 

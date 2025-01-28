@@ -34,5 +34,5 @@ Add this `<script>` tag in your HTML file within the `<head>` or at the end of t
 `<script src="https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>`
 
 ### Step 3: Create HTML Containers for Image and Tags
-In the `<body>` section of your HTML file, add an upload button, along with containers to display the uploaded image and its recognized tags. Refer to the code in [code-snippets/filestack-image-tagging-example.html](content/blogs/scalable-image-tagging/code-snippets/filestack-image-tagging-example.html).
+In the `<body>` section of your HTML file, add an upload button, along with containers to display the uploaded image and its recognized tags. Refer to the code in `code-snippets/filestack-image-tagging-example.html` .
 

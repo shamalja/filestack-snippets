@@ -74,7 +74,7 @@ See the complete example of the HTML file in `demo/index.html`.
 
 1. Replace `YOUR_API_KEY`, `YOUR_POLICY`, and `YOUR_SIGNATURE` with your valid [Filestack API key](https://www.filestack.com/signup-free/), [policy, and signature](https://www.filestack.com/docs/security/policies/).
 2. Save the file as `index.html`.
-3. Open the file in a browser. For best results, run the script on a local web server to avoid CORS issues.
+3. Open the file in a browser. For best results, test the script on a local web server to avoid CORS issues.
 4. Click the `Upload an Image` button to select an image and experience scalable image tagging in action.
 
 ---

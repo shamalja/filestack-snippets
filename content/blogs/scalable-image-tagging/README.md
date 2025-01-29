@@ -36,3 +36,17 @@ Add this `<script>` tag in your HTML file within the `<head>` or at the end of t
 ### Step 3: Create HTML Containers for Image and Tags
 In the `<body>` section of your HTML file, add an upload button, along with containers to display the uploaded image and its recognized tags. Refer to the code in `code-snippets/filestack-image-tagging-example.html` .
 
+### Step 4: Initialize Filestack in Your App
+Set up the Filestack client in your app by replacing `YOUR_API_KEY` with your unique API key:
+
+`const client = filestack.init('YOUR_API_KEY');`
+
+### Step 5: Implement Image Upload, Transformation, and Tagging Logic
+Attach an event listener to the upload button to:
+
+- Open the Filestack file picker.
+- Resize the uploaded image using Filestack transformations.
+- Fetch AI-generated tags and display them dynamically.
+  
+Here’s the code:
+

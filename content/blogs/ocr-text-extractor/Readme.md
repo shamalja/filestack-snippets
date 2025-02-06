@@ -43,7 +43,9 @@ This repository contains a simple, user-friendly web-based application for extra
 3. Open the `index.html` file in a browser or host it on a local/online server.
 
 ---
-You can find the complete code example in the demo folder.
+
+**You can find the complete code example in the demo folder.**
+
 ---
 
 ## Next Steps
@@ -65,3 +67,6 @@ You can find the complete code example in the demo folder.
 ## License
 
 This project is licensed under the MIT License. Feel free to use and modify it for your needs.
+
+---
+Visit [Filestack](https://www.filestack.com/)

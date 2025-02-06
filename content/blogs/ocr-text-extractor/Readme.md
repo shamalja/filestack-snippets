@@ -69,4 +69,4 @@ This repository contains a simple, user-friendly web-based application for extra
 This project is licensed under the MIT License. Feel free to use and modify it for your needs.
 
 ---
-Visit [Filestack](https://www.filestack.com/)
+Visit [Filestack](https://www.filestack.com/) to explore powerful file handling, transformations, and OCR capabilities for your projects.

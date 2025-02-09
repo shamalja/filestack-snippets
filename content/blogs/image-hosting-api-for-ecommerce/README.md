@@ -27,7 +27,7 @@ This project demonstrates how to use **Filestack** for uploading custom shirt de
 
 ### 2. Open the HTML File and Run a Test
 
-Simply open the index.html file in your browser.
+Simply open the `index.html` file in your browser.
 
 Alternatively, use a local server to avoid CORS issues:
 

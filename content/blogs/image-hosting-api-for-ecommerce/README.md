@@ -34,14 +34,10 @@ Alternatively, use a local server to avoid CORS issues:
 #### Python 3
 `python -m http.server 8000`
 
-Then, visit `http://localhost:8000` in your browser.
-
-OR
-
 #### Node.js
 `npx http-server`
 
-Visit `http://127.0.0.1:8080` in your browser or use the address displayed in your terminal.
+Then, open your browser and visit `http://localhost:8000` or the address displayed in your terminal.
 
 ### 3. Replace the Filestack API Key
 

@@ -63,7 +63,7 @@ This project is open-source and available under the **MIT License**.
 
 [Filestack documentation](https://www.filestack.com/docs/)
 
-Also read our article [The Benefits of a Fast Image Hosting API for E-Commerce]().
+Also read our article [The Benefits of a Fast Image Hosting API for E-Commerce](https://blog.filestack.com/the-benefits-of-fast-image-hosting-apis-for-e-commerce/).
 
 Visit [Filestack](https://www.filestack.com/).
 

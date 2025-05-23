@@ -20,8 +20,8 @@ This is a simple HTML, CSS, and JavaScript example demonstrating how to upload a
 
 **1. Clone the repository:**
 
-   `git clone https://github.com/your-username/photo-upload-with-filestack.git`
-   `cd photo-upload-with-filestack`
+   `git clone https://github.com/Fileschool/filestack-snippets.git`
+   `cd filestack-snippets/content/blogs/upload-photo-to-a-website`
 
 **2. Open the index.html file in your browser:**
 

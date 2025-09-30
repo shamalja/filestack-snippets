@@ -22,4 +22,4 @@ This project demonstrates two accessible file upload methods using [Filestack](h
 
 ## 🧩 External Links
 - [Filestack SDK Docs](https://www.filestack.com/docs/)
-- [Filestack Accessibility Release](https://blog.filestack.com/filestack-v3-29-0-a-more-accessible-experience/)
+- [Filestack Accessibility Release](https://blog.filestack.com/filestack-v3-29-0-accessible-experience-wcag-2-0-compliant/)

@@ -114,4 +114,4 @@ app.listen(PORT, () => {
 	•	http-server
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/shamalja/filestack-snippets/blob/main/content/blogs/froala-bootstrap-demo/LICENSE).

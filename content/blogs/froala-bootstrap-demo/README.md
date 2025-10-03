@@ -37,9 +37,9 @@ Make sure you have the following installed:
 
 ### 1. Clone the Repository
 
-`git clone https://github.com/yourusername/froala-bootstrap-demo.git`
+`git clone https://github.com/fileschool/filestack-snippets.git`
 
-`cd froala-bootstrap-demo`
+`cd filestack-snippets/content/blogs/froala-bootstrap-demo`
 
 ### 2. Run the Frontend (Static HTML)
 

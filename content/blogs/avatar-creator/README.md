@@ -42,7 +42,7 @@ This is a simple web-based **Avatar Creator** built with HTML, JavaScript, and [
 
 ## 💡 Usage
 
-Click the “Upload” button to select your image. After cropping, the circular avatar will appear below as a live preview.
+Click the “Upload & Crop Image” button to select your image. After cropping, the circular avatar will appear below as a live preview.
 
 ## 📁 File Structure
 

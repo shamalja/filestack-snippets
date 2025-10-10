@@ -73,7 +73,7 @@ avatar-creator/
 
 ## 📝 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT](https://github.com/shamalja/filestack-snippets/blob/main/content/blogs/avatar-creator/LICENSE) License.
 Feel free to fork and build on it!
 
 ---

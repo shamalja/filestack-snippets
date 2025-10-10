@@ -26,9 +26,9 @@ This is a simple web-based **Avatar Creator** built with HTML, JavaScript, and [
 
 1. **Clone the repository**
 
-`git clone https://github.com/your-username/avatar-creator.git`
+`git clone https://github.com/shamalja/filestack-snippets.git`
 
-`cd avatar-creator`
+`cd filestack-snippets/content/blogs/avatar-creator`
 
 2. **Get a Filestack API key**
    

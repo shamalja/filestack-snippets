@@ -2,8 +2,6 @@
 
 This is a simple web-based **Avatar Creator** built with HTML, JavaScript, and [Filestack](https://www.filestack.com/). It allows users to upload and crop an image to create a circular avatar, ideal for profile pictures, gaming platforms, or user dashboards.
 
-![Demo Screenshot](preview.png) <!-- Replace with actual screenshot if available -->
-
 ---
 
 ## 🚀 Features

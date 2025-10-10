@@ -1,0 +1,83 @@
+# 🎨 Avatar Creator with Filestack
+
+This is a simple web-based **Avatar Creator** built with HTML, JavaScript, and [Filestack](https://www.filestack.com/). It allows users to upload and crop an image to create a circular avatar, ideal for profile pictures, gaming platforms, or user dashboards.
+
+![Demo Screenshot](preview.png) <!-- Replace with actual screenshot if available -->
+
+---
+
+## 🚀 Features
+
+- Upload images directly from local files or other sources via Filestack Picker  
+- Crop to a perfect square with a 1:1 aspect ratio  
+- Preview the avatar with a **circular mask**  
+- Client-side validation and error handling  
+- Fully responsive and mobile-friendly  
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5 + CSS3  
+- Vanilla JavaScript  
+- [Filestack JavaScript SDK](https://www.filestack.com/products/file-upload/)
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository**
+
+`git clone https://github.com/your-username/avatar-creator.git`
+
+`cd avatar-creator`
+
+2. **Get a Filestack API key**
+   
+- Sign up at Filestack
+- Copy your API key from the dashboard
+  
+3. **Open index.html**
+   
+- Replace 'YOUR_API_KEY' in the <script> section with your actual Filestack API key
+- Save the file and open it in a browser
+
+## 💡 Usage
+
+Click the “Upload” button to select your image. After cropping, the circular avatar will appear below as a live preview.
+
+## 📁 File Structure
+
+```
+avatar-creator/
+│
+├── index.html            # Main HTML file
+├── preview.png           # (Optional) Screenshot for GitHub preview
+└── README.md             # This file
+```
+
+## 🧩 Customize
+
+- Change avatar size by modifying .avatar-preview dimensions
+- Add filters or transformations using Filestack’s transformation options
+- Secure uploads by configuring Filestack policies and security signatures
+
+---
+
+## 📚 Learn More
+
+- Filestack JS SDK Documentation
+- Filestack Transformations
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+Feel free to fork and build on it!
+
+---
+
+## 🙌 Acknowledgments
+
+Thanks to [Filestack](https://www.filestack.com/) for providing a powerful file upload and image transformation service.

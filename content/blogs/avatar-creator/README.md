@@ -64,8 +64,8 @@ avatar-creator/
 
 ## 📚 Learn More
 
-- Filestack JS SDK Documentation
-- Filestack Transformations
+- [Filestack JS SDK Documentation](https://www.filestack.com/docs/)
+- [Filestack Transformations] (https://www.filestack.com/docs/transformations/overview/)
 
 ---
 

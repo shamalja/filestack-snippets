@@ -50,7 +50,7 @@ Click the “Upload & Crop Image” button to select your image. After cropping,
 avatar-creator/
 │
 ├── index.html            # Main HTML file
-├── preview.png           # (Optional) Screenshot for GitHub preview
+├── LICENSE               # MIT License
 └── README.md             # This file
 ```
 

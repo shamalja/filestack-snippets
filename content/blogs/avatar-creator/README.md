@@ -18,7 +18,7 @@ This is a simple web-based **Avatar Creator** built with HTML, JavaScript, and [
 
 - HTML5 + CSS3  
 - Vanilla JavaScript  
-- [Filestack JavaScript SDK](https://www.filestack.com/products/file-upload/)
+- [Filestack JavaScript SDK](https://www.filestack.com/sdks/javascript/)
 
 ---
 

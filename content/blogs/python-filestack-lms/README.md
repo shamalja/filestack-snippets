@@ -48,7 +48,7 @@ python-filestack-lms/
 
 **4. Set your Filestack API key**
 
-Replace "YOUR_FILESTACK_API_KEY" in both app.py and index.html with your actual Filestack API key.
+Replace "YOUR_FILESTACK_API_KEY" in both `app.py` and `index.html` with your actual Filestack API key.
 
 🔒 Tip: In production, use restricted API keys or Filestack [security policies](https://www.filestack.com/docs/security/policies/) for safety.
 

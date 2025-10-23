@@ -114,7 +114,7 @@ This example is part of Filestack’s EdTech integration series demonstrating ho
 
 ## 📝 License
 
-This project is open source under the MIT License.
+This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/python-filestack-lms/LICENSE).
 
 ⸻
 

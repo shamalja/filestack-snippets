@@ -110,13 +110,13 @@ Install all dependencies:
 
 This example is part of Filestack’s EdTech integration series demonstrating how developers can simplify file uploads and management in Learning Management Systems using python file handling and the Filestack API.
 
-⸻
+---
 
 ## 📝 License
 
 This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/python-filestack-lms/LICENSE).
 
-⸻
+---
 
 ## 👨‍💻 Author
 

@@ -30,9 +30,9 @@ python-filestack-lms/
 
 **1. Clone the repository**
    
-   `git clone https://github.com/yourusername/python-filestack-lms.git`
+   `git clone https://github.com/Fileschool/filestack-snippets.git`
    
-   `cd python-filestack-lms`
+   `cd filestack-snippets/content/blogs/python-filestack-lms`
 
 **2. Create and activate a virtual environment**
 

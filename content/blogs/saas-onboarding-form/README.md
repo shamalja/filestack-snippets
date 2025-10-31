@@ -30,9 +30,9 @@ LICENSE        → MIT License
 
 ### 1. Clone the Repository
 
-`git clone https://github.com/your-username/saas-onboarding-upload.git`
+`git clone https://github.com/fileschool/filestack-snippets.git`
 
-`cd saas-onboarding-upload`
+`cd filestack-snippets/content/blogs/saas-onboarding-form`
 
 ### 2. Open the File
 
@@ -64,7 +64,7 @@ This UI supports both drag-and-drop or button-triggered uploads and offers insta
 
 📝 License
 
-This project is open source under the [MIT License](https://github.com/shamalja/filestack-snippets/blob/main/content/blogs/saas-onboarding-form/LICENSE).
+This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/saas-onboarding-form/LICENSE).
 
 ---
 

@@ -35,11 +35,32 @@ LICENSE                        → MIT License
 
 `cd filestack-snippets/content/blogs/marketplace-product-upload`
 
-### 2. Install dependencies
+### 2. Create a React project
+
+`npm create vite@latest my-upload-app -- --template react`
+
+`cd my-upload-app`
 
 `npm install`
 
-### 3. Add your Filestack API key
+### 3. Install the Filestack SDK
+
+`npm install filestack-js`
+
+### 4. Create the Component File
+
+Inside your my-upload-app/src directory:
+
+- Create a file named:
+`ProductImageUploader.jsx`
+
+- Paste the full component code of the `filestack-snippets/content/blogs/marketplace-product-upload/src/ProductImageUploader.jsx` into that file.
+
+### 5. Use the Component in App.js
+
+Open my-upload-app/src/App.jsx and replace the contents with the contents of `filestack-snippets/content/blogs/marketplace-product-upload/src/App.jsx`
+
+### 6. Add your Filestack API key
 
 In `ProductImageUploader.jsx`, replace this line:
 
@@ -47,7 +68,7 @@ In `ProductImageUploader.jsx`, replace this line:
 
 You can get a free API key from [Filestack](https://www.filestack.com/)
 
-### 4. Start the dev server
+### 7. Start the dev server
 
 `npm run dev`
 

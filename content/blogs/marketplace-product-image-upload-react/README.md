@@ -58,7 +58,7 @@ Inside your my-upload-app/src directory:
 
 ### 5. Use the Component in App.js
 
-Open my-upload-app/src/App.jsx and replace the contents with the contents of `filestack-snippets/content/blogs/marketplace-product-upload/src/App.jsx`
+Open `my-upload-app/src/App.jsx` and replace the contents with the contents of `filestack-snippets/content/blogs/marketplace-product-upload/src/App.jsx`
 
 ### 6. Add your Filestack API key
 

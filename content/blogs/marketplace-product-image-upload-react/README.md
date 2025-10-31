@@ -49,3 +49,34 @@ You can get a free API key from [Filestack](https://www.filestack.com/)
 
 ### 4. Start the dev server
 
+`npm run dev`
+
+Open your browser at `http://localhost:5173`
+
+## 💡 Usage
+
+This uploader is perfect for marketplace sellers during the product listing process. It provides an intuitive way to pick and preview images before submission, with zero need for technical knowledge.
+
+---
+
+## 📦 Dependencies
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Filestack JS SDK](https://www.filestack.com/sdks/javascript/)
+
+---
+
+## 📝 License
+
+MIT License. See LICENSE for details.
+
+---
+
+## 🙌 Credits
+
+This example was created for the tutorial:  
+**[File Upload UI for Non-Technical Users](https://blog.filestack.com/file-upload-ui-for-non-technical-users/)**
+
+**Powered by [Filestack](https://www.filestack.com/)**  
+Created by **[Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)**
+

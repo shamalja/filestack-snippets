@@ -89,7 +89,7 @@ This uploader is perfect for marketplace sellers during the product listing proc
 
 ## 📝 License
 
-MIT License. See LICENSE for details.
+MIT License. See [LICENSE](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/marketplace-product-image-upload-react/LICENSE) for details.
 
 ---
 

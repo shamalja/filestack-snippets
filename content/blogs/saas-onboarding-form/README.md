@@ -49,6 +49,7 @@ You can get a free API key by signing up at [filestack.com](https://www.filestac
 ### 👩‍💼 Example Use Case
 
 **User:** Emily Parker
+
 **Use case:** Uploading her profile photo during SaaS signup
 
 This UI supports both drag-and-drop or button-triggered uploads and offers instant validation and feedback—no training required.
@@ -56,8 +57,8 @@ This UI supports both drag-and-drop or button-triggered uploads and offers insta
 ---
 
 📦 Dependencies
-	•	[Filestack JavaScript SDK](https://www.filestack.com/sdks/javascript/)
-	•	CDN: https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js
+- [Filestack JavaScript SDK](https://www.filestack.com/sdks/javascript/)
+- CDN: https://static.filestackapi.com/filestack-js/3.x.x/filestack.min.js
 
 ---
 
@@ -71,6 +72,7 @@ This project is open source under the MIT License.
 
 Created as part of the article:
 File Upload UI for Non-Technical Users
+
 Brought to life using the Filestack File Picker.
 
 Created by [Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)

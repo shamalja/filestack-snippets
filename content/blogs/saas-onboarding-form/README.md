@@ -64,7 +64,7 @@ This UI supports both drag-and-drop or button-triggered uploads and offers insta
 
 📝 License
 
-This project is open source under the MIT License.
+This project is open source under the [MIT License](https://github.com/shamalja/filestack-snippets/blob/main/content/blogs/saas-onboarding-form/LICENSE).
 
 ---
 

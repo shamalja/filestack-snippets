@@ -60,3 +60,53 @@ cd filestack-snippets/content/blogs/filestack-resume-uploader
 ### 3. Install dependencies
 npm install
 
+## 🔑 Set Your API Key
+
+Open the src/ResumeUpload.js file and replace the placeholder:
+
+`const client = filestack.init('YOUR_API_KEY');`
+
+with your actual Filestack API key.
+
+## 🖥️ Running the App Locally
+
+```
+# Start the local development server
+npm start
+```
+
+This will launch the app at:
+
+`http://localhost:3000`
+
+## ✅ Output
+
+Once the app runs successfully:
+
+	- Click the 'Upload Resume' button.
+	- Choose a .pdf or .docx file.
+	- You will see a “Upload successful!” message upon completion.
+
+---
+
+## 📦 Resources
+- [Filestack Docs](https://www.filestack.com/docs/)
+- [ReactJS Docs](https://react.dev/)
+- [Filestack Article: File Upload UI for Non-Technical Users](https://blog.filestack.com/file-upload-ui-for-non-technical-users/)
+
+---
+
+## 📝 License
+
+This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/saas-onboarding-form/LICENSE).
+
+---
+
+## 💡 Credits
+
+Created as part of the article:
+File Upload UI for Non-Technical Users
+
+Brought to life using the Filestack File Picker.
+
+Created by [Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)

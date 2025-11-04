@@ -98,7 +98,7 @@ Once the app runs successfully:
 
 ## 📝 License
 
-This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/saas-onboarding-form/LICENSE).
+This project is open source under the [MIT License](https://github.com/shamalja/filestack-snippets/blob/main/content/blogs/filestack-resume-uploader/LICENSE).
 
 ---
 

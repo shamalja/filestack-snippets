@@ -25,9 +25,9 @@ This is a clean, accessible, and beginner-friendly **file upload interface** bui
 
 ### 1. Clone the repo
 
-`git clone https://github.com/your-username/simple-file-upload-ui.git`
+`git clone https://github.com/fileschool/filestack-snippets.git`
 
-`cd simple-file-upload-ui`
+`cd filestack-snippets/content/blogs/simple-file-upload-ui`
 
 ### 2. Open the file
 
@@ -59,7 +59,7 @@ LICENSE         → Open-source license
 
 ## 🤝 License
 
-This project is open source under the [MIT License](https://github.com/shamalja/filestack-snippets/blob/main/content/blogs/simple-file-upload-ui/LICENSE).
+This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/simple-file-upload-ui/LICENSE).
 
 ---
 

@@ -60,6 +60,24 @@ cd filestack-snippets/content/blogs/filestack-resume-uploader
 ### 3. Install dependencies
 npm install
 
+### 4. Create a new React app
+```
+npx create-react-app resume-uploader
+cd resume-uploader
+```
+### 5. Install Filestack SDK
+
+`npm install filestack-js`
+
+### 6. Replace default src files
+
+Copy the following files from this repo and replace the files inside your local app’s src/ folder:
+
+- App.js
+- ResumeUpload.js
+
+You can delete the default files such as App.css, index.css, logo.svg, etc.
+
 ## 🔑 Set Your API Key
 
 Open the src/ResumeUpload.js file and replace the placeholder:

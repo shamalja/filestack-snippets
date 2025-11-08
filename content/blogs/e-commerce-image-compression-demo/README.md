@@ -96,3 +96,20 @@ Once you upload an image, you’ll see:
 ## 📄 License
 
 This project is open-source and available under the MIT License.
+
+## 🔗 Learn More
+
+- [Filestack Documentation](https://www.filestack.com/docs/)
+  
+- [Image Optimization API Reference](https://www.filestack.com/docs/api/processing/)￼
+  
+- [Filestack JavaScript SDK](https://www.filestack.com/sdks/javascript/)
+
+## 💡 Credits
+
+Created as part of the article:
+Image Compression for Startup Bandwidth Costs
+
+Brought to life using [Filestack](https://www.filestack.com/).
+
+Created by [Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)

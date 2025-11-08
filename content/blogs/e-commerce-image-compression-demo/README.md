@@ -95,7 +95,7 @@ Once you upload an image, you’ll see:
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/e-commerce-image-compression-demo/LICENSE).
 
 ## 🔗 Learn More
 

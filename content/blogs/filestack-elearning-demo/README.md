@@ -38,3 +38,24 @@ filestack-elearning-demo/
 - Filestack Storage
 - Filestack CDN
 - HTML, CSS, JavaScript
+
+## Resources
+- [Filestack Docs](https://www.filestack.com/docs/)
+- [Filestack Article: File Storage vs CDN for Startup Economics](https://blog.filestack.com/cdn-vs-file-storage-startup-economics/)
+
+---
+
+## 📝 License
+
+This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/filestack-elearning-demo/LICENSE).
+
+---
+
+## 💡 Credits
+
+Created as part of the article:
+File Storage vs CDN for Startup Economics
+
+Brought to life using the Filestack File Picker.
+
+Created by [Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)

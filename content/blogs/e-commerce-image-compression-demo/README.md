@@ -105,6 +105,8 @@ This project is open-source and available under the [MIT License](https://github
   
 - [Filestack JavaScript SDK](https://www.filestack.com/sdks/javascript/)
 
+- [Image Compression for Startup Bandwidth Costs](https://blog.filestack.com/image-compression-for-startup-bandwidth-costs/)
+
 ## 💡 Credits
 
 Created as part of the article:

@@ -164,4 +164,4 @@ This gives bootstrapped startups predictable, efficient, low-cost media delivery
 
 ## License
 
-MIT License — free to use, modify, and extend.
+[MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/filestack-bandwidth-optimization-demo/LICENSE) — free to use, modify, and extend.

@@ -119,6 +119,15 @@ Delivery CDN: https://www.filestack.com/docs/delivery/cdn/
 
 Filestack Documentation: https://www.filestack.com/docs/
 
-📄 License
+## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/lms-assignment-submission-page/LICENSE).
+
+## 💡 Credits
+
+Created as part of the article:
+Multiple File Upload for Student Submissions
+
+Brought to life using [Filestack](https://www.filestack.com/).
+
+Created by [Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)

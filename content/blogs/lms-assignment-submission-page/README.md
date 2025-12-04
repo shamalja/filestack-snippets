@@ -58,12 +58,11 @@ Sign up for free at: https://www.filestack.com
 
 `cd filestack-snippets/content/blogs/lms-assignment-submission-page`
 
-3. Add your Filestack API Key
+2. Add your Filestack API Key
 
 In main.js, replace:
 
 const client = filestack.init("YOUR_API_KEY_HERE");
-
 
 with your actual API key.
 
@@ -71,70 +70,36 @@ with your actual API key.
 
 You can use VS Code Live Server or:
 
-npx http-server .
+`npx http-server`
 
 4. Open in browser
-http://localhost:8080
-
+   
+http://localhost:8080, http://127.0.0.1:8080 or http://192.168.1.8:8080
 
 You’ll see the LMS upload form.
 
-📸 Screenshots
-LMS Upload Form
-
-Add screenshot here
-
-Filestack File Picker
-
-Add screenshot here
-
-Multiple files uploading in parallel
-
-Add screenshot here
-
-📜 Example Code
-Opening the Filestack Picker
-const client = filestack.init("YOUR_API_KEY_HERE");
-
-client.picker({
-  maxFiles: 10,
-  fromSources: ["local_file_system", "googledrive", "dropbox"],
-  accept: [".pdf", ".docx", ".png", ".jpg", ".jpeg", ".zip", "video/*"],
-  onFileSelected: file => {
-    if (file.size > 50 * 1024 * 1024) {
-      alert("One of the files is too large (max 50MB).");
-      return false;
-    }
-    return file;
-  },
-  onUploadDone: result => console.log(result.filesUploaded)
-}).open();
-
-📬 Saving Metadata (Optional)
+## 📬 Saving Metadata (Optional)
 
 Each uploaded file includes:
 
-Student ID
-
-Assignment ID
-
-File name
-
-File size
-
-MIME type
-
-CDN delivery URL
+- Student ID
+- Assignment ID
+- File name
+- File size
+- MIME type
+- CDN delivery URL
 
 You can send these to your backend with:
 
+```
 fetch("/save-submission", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
   body: JSON.stringify(data)
 });
+```
 
-🛡️ Security Notes
+## 🛡️ Security Notes
 
 Do not expose Filestack security policies or signatures in frontend code.
 
@@ -142,7 +107,7 @@ This example uses only client-side uploads, which is safe for demos.
 
 For delete / virus scanning workflows, move logic to backend.
 
-🔗 Useful Filestack Documentation
+## 🔗 Useful Filestack Documentation
 
 File Picker Docs: https://www.filestack.com/docs/uploads/pickers/web/
 
@@ -152,10 +117,7 @@ Virus Detection: https://www.filestack.com/products/virus-detection/
 
 Delivery CDN: https://www.filestack.com/docs/delivery/cdn/
 
-❤️ Contributing
-
-Have improvements to this demo?
-Feel free to open an issue or submit a PR!
+Filestack Documentation: https://www.filestack.com/docs/
 
 📄 License
 

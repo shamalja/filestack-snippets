@@ -62,7 +62,7 @@ Sign up for free at: https://www.filestack.com
 
 In `main.js`, replace:
 
-const client = filestack.init("YOUR_API_KEY_HERE");
+`const client = filestack.init("YOUR_API_KEY_HERE");`
 
 with your actual API key.
 
@@ -74,7 +74,7 @@ You can use VS Code Live Server or:
 
 4. Open in browser
    
-http://localhost:8080, http://127.0.0.1:8080 or http://192.168.1.8:8080
+`http://localhost:8080`, `http://127.0.0.1:8080` or `http://192.168.1.8:8080`
 
 You’ll see the LMS upload form.
 

@@ -60,7 +60,7 @@ Sign up for free at: https://www.filestack.com
 
 2. Add your Filestack API Key
 
-In main.js, replace:
+In `main.js`, replace:
 
 const client = filestack.init("YOUR_API_KEY_HERE");
 

@@ -88,13 +88,13 @@ This demo shows how to use the **Filestack File Picker** with:
 
 ---
 
-## 📝 License
+## License
 
-This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/filestack-resume-uploader/LICENSE).
+This project is open source under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/filestack-secure-image-hosting-demo/LICENSE).
 
 ---
 
-## 💡 Credits
+## Credits
 
 Created as part of the article:
 Secure Image Hosting API for Early-Stage Products

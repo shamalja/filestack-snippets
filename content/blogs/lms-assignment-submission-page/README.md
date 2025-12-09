@@ -4,7 +4,7 @@ This project demonstrates how to build a multiple file upload workflow for an LM
 It showcases how students can upload several assignment files at once—PDFs, images, ZIPs, videos—with automatic progress tracking, parallel uploads, metadata tagging, and secure CDN delivery.
 
 This example is part of the article:
-“Multiple File Upload for Student Submissions”
+“[Multiple File Upload for Student Submissions](https://blog.filestack.com/multiple-file-upload-student-submissions/)”
 and is designed for EdTech developers who want reliable batch upload handling.
 
 ## 🚀 Features

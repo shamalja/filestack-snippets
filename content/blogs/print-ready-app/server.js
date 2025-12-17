@@ -10,7 +10,7 @@ app.use(express.json());
 // CONFIG
 // ===============================
 const FILESTACK_API_KEY = "YOUR_API_KEY"; // Replace with your Filestack API key
-const FILESTACK_APP_SECRET = "YOUR_APP_SECRET"; // Replace with the App Secret you copied from Filestack Dashboard - Security - Policy & Signature section
+const FILESTACK_APP_SECRET = "YOUR_APP_SECRET"; // Replace with your Filestack App Secret (Dashboard → Security)
 const WORKFLOW_ID = "YOUR_WORKFLOW_ID"; // Replace with your Filestack Workflow ID
 const PORT = 3001;
 

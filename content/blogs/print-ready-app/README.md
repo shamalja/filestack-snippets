@@ -189,7 +189,7 @@ This project is licensed under the [MIT License](https://github.com/fileschool/f
 ## Credits
 
 Created as part of the article:
-How to Standardize Color Profiles Before Files Hit Your Print Pipeline
+[How to Standardize Color Profiles Before Files Hit Your Print Pipeline](https://blog.filestack.com/color-profile-handling-print-files/)
 
 Brought to life using [Filestack](https://www.filestack.com/).
 

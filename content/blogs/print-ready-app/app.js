@@ -75,7 +75,8 @@ function pollWorkflow(jobId) {
         if (!output) {
           throw new Error("Workflow finished but no output file found");
         }
-
+        
+        // Show processed image
         processedImage.src = `https://cdn.filestackcontent.com/${output}`; 
         statusBox.innerHTML = "✅ Done! Your print-ready image is ready.";
         statusBox.style.background = "#dcfce7";

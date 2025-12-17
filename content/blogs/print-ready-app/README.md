@@ -182,7 +182,7 @@ Filestack CDN: https://www.filestack.com/docs/delivery/cdn/
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/print-ready-app/LICENSE).
 
 ---
 

@@ -79,7 +79,9 @@ Before running this demo, make sure you have:
 Open server.js and replace the placeholders:
 
 const FILESTACK_API_KEY = "YOUR_API_KEY";
+
 const FILESTACK_APP_SECRET = "YOUR_FILESTACK_APP_SECRET";
+
 const WORKFLOW_ID = "YOUR_WORKFLOW_ID";
 
 **⚠️ Important:**

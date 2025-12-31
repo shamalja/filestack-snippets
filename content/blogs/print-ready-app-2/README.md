@@ -157,16 +157,14 @@ Resume from here
 
 ## License
 
-This project is provided for educational and demonstration purposes.
+This project is licensed under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/print-ready-app-2/LICENSE).
 
-If you want, I can also:
+## Credits
 
-Add a .env-based setup
+Created as part of the article:
 
-Simplify the workflow output handling
+[How to Convert Uploaded Images to JPEG for Reliable Printing Workflows](https://blog.filestack.com/convert-images-to-jpeg-for-printing-workflows/)
 
-Make the demo production-ready
+Brought to life using [Filestack](https://www.filestack.com/).
 
-Align the README with Filestack’s official repo style
-
-Just say the word.
+Created by [Shamal Jayawardhana](https://www.linkedin.com/in/shamal-jayawardhana/)

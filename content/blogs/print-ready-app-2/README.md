@@ -78,11 +78,11 @@ Before running this demo, make sure you have:
 
 Open server.js and replace the placeholders:
 
-const FILESTACK_API_KEY = "YOUR_API_KEY";
+- const FILESTACK_API_KEY = "YOUR_API_KEY";
 
-const FILESTACK_APP_SECRET = "YOUR_FILESTACK_APP_SECRET";
+- const FILESTACK_APP_SECRET = "YOUR_FILESTACK_APP_SECRET";
 
-const WORKFLOW_ID = "YOUR_WORKFLOW_ID";
+- const WORKFLOW_ID = "YOUR_WORKFLOW_ID";
 
 **⚠️ Important:**
 
@@ -94,7 +94,7 @@ const WORKFLOW_ID = "YOUR_WORKFLOW_ID";
 
 In `app.js`, this demo expects the Store task name to be:
 
-store_1766662754939 (this is the `store` task name in my workflow)
+`store_1766662754939` (this is the `store` task name in my workflow)
 
 If your workflow uses a different `store` task name, update this section:
 

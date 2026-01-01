@@ -65,11 +65,16 @@ function pollWorkflow(jobId) {
 
         /**
          * IMPORTANT:
-         * The output comes from the STORE task 
+         * The output comes from the STORE task name
+         * In our Workflow, the STORE task name is store_print_ready
          */
-        const output = Array.isArray(data.sources) && data.sources.length > 0
-          ? data.sources[0]
-            : null;
+        
+        const output =
+              data.results &&
+              data.results.store_print_ready &&
+              data.results.store_print_ready.data
+          ? data.results.store_print_ready.data.url
+        : null;
         
 
         if (!output) {

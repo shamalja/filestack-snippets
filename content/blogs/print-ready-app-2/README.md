@@ -153,8 +153,6 @@ This demo accompanies the article:
 
 It explains the concepts, architecture, and workflow design behind this example.
 
-Resume from here 
-
 ## License
 
 This project is licensed under the [MIT License](https://github.com/fileschool/filestack-snippets/blob/main/content/blogs/print-ready-app-2/LICENSE).

@@ -10,6 +10,13 @@ This project demonstrates how to export WYSIWYG HTML (from Froala) to a PDF on t
 ## Requirements
 - Node.js 18+ recommended
 
+## Clone
+```
+git clone https://github.com/fileschool/filestack-snippets.git
+cd filestack-snippets/content/blogs/froala-nodejs-html-to-pdf
+
+```
+
 ## Install
 ```
 npm install
